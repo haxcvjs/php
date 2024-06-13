@@ -1,0 +1,10 @@
+<?php 
+
+ function user(string $username = null) : bool {
+    print $username;
+    return true;
+ }
+
+ user("Manassa Yousif");
+
+?>
